@@ -10,7 +10,7 @@ import com.lagradost.cloudstream3.utils.ExtractorLink
 import com.lagradost.cloudstream3.utils.loadExtractor
 
 class TenHitMoviesProvider : NineKMoviesProvider() {
-    override var mainUrl = "https://10hitmovies.com/"
+    override var mainUrl = "https://10hitmovies.study/"
     override var name = "10HitMovies"
     override val supportedTypes = setOf(
         TvType.Movie,
